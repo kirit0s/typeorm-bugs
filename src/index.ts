@@ -7,7 +7,7 @@ async function run() {
   try {
     const connection = await createConnection();
     const userRepository = connection.getRepository(User);
-    await userRepository.insert(userEntityList);
+    await userRepository.insert(userEntityList); // or createQueryBuilder
   } catch (error) {
     console.error(error);
   } finally {
