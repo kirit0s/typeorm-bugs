@@ -1,0 +1,31 @@
+{
+   "name": "typeorm-bugs",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kirit0s/typeorm-bugs.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/kirit0s/typeorm-bugs/issues"
+   },
+   "homepage": "https://github.com/kirit0s/typeorm-bugs#readme",
+   "dependencies": {
+      "mysql": "^2.18.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.25"
+   },
+   "devDependencies": {
+      "@types/node": "^14.0.13",
+      "ts-node": "^8.10.2",
+      "typescript": "^3.9.5"
+   }
+}
